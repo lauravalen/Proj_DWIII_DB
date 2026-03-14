@@ -1,0 +1,27 @@
+{
+  "name": "proj_dwiii_db",
+  "version": "1.0.0",
+  "description": "Projeto da matéria de 'Desenvolvimento Web III' sobre banco de dados.",
+  "repository": {
+    "type": "git",
+    "url": "Proj_DWIII_DB"
+  },
+  "license": "ISC",
+  "author": "Laura Valentim",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"echo \\\"Error: no test specified\\\" && exit 1\""
+  },
+  "dependencies": {
+    "body-parser": "^2.2.2",
+    "express": "^5.2.1",
+    "express-handlebars": "^8.0.6",
+    "pacote": "^21.5.0",
+    "sequelize": "^6.37.8",
+    "sqlite3": "^6.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
